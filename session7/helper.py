@@ -148,14 +148,14 @@ def merkle_parent(hash1, hash2):
 def merkle_parent_level(hashes):
     '''Takes a list of binary hashes and returns a list that's half
     the length'''
-    # Exercise 2.2: if the list has exactly 1 element raise an error
-    # Exercise 3.2: if the list has an odd number of elements, duplicate the last one
-    #               and put it at the end so it has an even number of elements
-    # Exercise 2.2: initialize next level
-    # Exercise 2.2: loop over every pair (use: for i in range(0, len(hashes), 2))
-        # Exercise 2.2: get the merkle parent of i and i+1 hashes
-        # Exercise 2.2: append parent to parent level
-    # Exercise 2.2: return parent level
+    # if the list has exactly 1 element raise an error
+    # if the list has an odd number of elements, duplicate the last one
+    #       and put it at the end so it has an even number of elements
+    # initialize next level
+    # loop over every pair (use: for i in range(0, len(hashes), 2))
+        # get the merkle parent of i and i+1 hashes
+        # append parent to parent level
+    # return parent level
     raise NotImplementedError
 
 
